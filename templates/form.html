@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Form</title>
+</head>
+<body>
+
+    <h2>Enter Marks</h2>
+
+    <form action="{{ url_for('form') }}" method="POST">
+
+        <label>History:</label>
+        <input type="number" name="history" required>
+        <br><br>
+
+        <label>Hindi:</label>
+        <input type="number" name="hindi" required>
+        <br><br>
+
+        <label>Science:</label>
+        <input type="number" name="science" required>
+        <br><br>
+
+        <input type="submit" value="Calculate Result">
+
+    </form>
+
+</body>
+</html>

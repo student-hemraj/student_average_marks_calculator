@@ -1,0 +1,7 @@
+//Flask->Flask is a lightweight web framework that is used to create website and web apps 
+
+//Virtual Enviroment->Virtual Environment (Python) ek isolated environment hota hai jisme project ke packages alag install hote hain. 
+Isse ek project ke packages dusre project ko affect nahi karte.
+
+Virtual Enviroment is an isolate enviroment for a project.it keeps project dependencies separate
+from another project on your computer/laptop.
